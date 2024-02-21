@@ -1,0 +1,129 @@
+@media screen and (max-width: 799px) {
+    .section-p1{
+        padding: 40px 40px;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: var(--primarycolor);
+        box-shadow: 0 40px 60px rgba(0,0,0,.5);
+        padding: 80px 0px 0px 10px;
+        transition: all .4s ease-in-out;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display:block;
+    }
+    #mobile i{
+        color: black;
+        font-size: 24px;
+        padding-left: 20px;
+        cursor: pointer;
+    }
+    #lg-bag{
+        display: none;
+    }
+    #close{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: black;
+        font-size: 24px;
+        display: block;
+    }
+    #hero{
+        height: 70vh;
+        padding: 0px 80px;
+        background-position: top 30% right 30%;
+    }
+     #featute{
+        justify-content: center;
+     }
+     #featute .fe-box{
+        margin: 15px;
+     }
+     #product1 .pro-container{
+          justify-content: center;
+     }
+     #product .pro{
+        margin: 15px;
+     }
+     #banner{
+        height: 30vh;
+     }
+     #sm-banner .banner-box{
+        min-width: 100%;
+        height: 30vh;
+     }
+     #banner3{
+        padding: 0px 40px;
+     }
+     #banner3 .banner-box{
+        width: 28%;
+     }
+     #newselter .form{
+        width: 70%;
+     }
+}
+@media (max-width:477px) {
+    .section-p1{
+        padding: 20px;
+    }
+ #header{
+    padding: 10px 30px;
+
+ }  
+ h1{
+    font-size: 38px;
+}
+   h2{
+    font-size: 32px;
+ }
+ #hero{
+    padding: 0px 20px;
+    background-position: 55%;
+ }
+ #featute{
+    justify-content: space-between;
+ }
+ #featute .fe-box{
+    width: 155px;
+    margin: 0px 0px 15px 0px;
+ }
+ #product1 .pro{
+    width: 100%;
+ }
+ #banner{
+    height: 40vh;
+ }
+ #sm-banner .banner-box{
+    height: 40vh ;
+ }
+ #sm-banner .banner-box2{
+    margin-top: 20px;
+ }
+ #banner3{
+    padding: 0px 20px;
+ }
+ #banner3 .banner-box{
+    width: 100%;
+ }
+ #newselter {
+   padding:40px 20px;
+ }
+ #newselter .form{
+    width: 100%;
+ }
+ footer .copyright{
+text-align: start;
+ }
+}
