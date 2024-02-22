@@ -10,4 +10,5 @@ if(closebar){
   closebar.addEventListener("click",()=>{
     nav.classList.remove("active");
   })
-}
+};
+//  active class add
